@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In / Sign Up Form</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center mt-5">
+            <div class="col-md-6 col-lg-4">
+                <div id="form-container" class="p-4 border rounded shadow">
+                    
+                    </div>
+                    
+                    <div id="sign-in-form">
+                        <h3 class="text-center">Sign In</h3>
+                        <form id="signin-form">
+                            <div class="mb-3">
+                                <label for="signin-email" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="signin-email" placeholder="Enter email">
+                                <div class="invalid-feedback">Please enter a valid email address.</div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="signin-password" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="signin-password" placeholder="Password">
+                                <div class="invalid-feedback">Password is required.</div>
+                            </div>
+                            <button type="submit" class="btn btn-primary w-100">Sign In</button>
+                            <p class="text-center mt-3">Don't have an account? <a href="#" id="show-sign-up">Sign Up</a></p>
+                        </form>
+                    </div>
+                    
+                    <!-- Sign Up Form -->
+                    <div id="sign-up-form" style="display: none;">
+                        <h3 class="text-center">Sign Up</h3>
+                        <form id="signup-form">
+                            <div class="mb-3">
+                                <label for="signup-name" class="form-label">Full Name</label>
+                                <input type="text" class="form-control" id="signup-name" placeholder="Full Name">
+                                <div class="invalid-feedback">Full name is required.</div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="signup-email" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="signup-email" placeholder="Enter email">
+                                <div class="invalid-feedback">Please enter a valid email address.</div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="signup-password" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="signup-password" placeholder="Password">
+                                <div class="invalid-feedback">Password is required.</div>
+                            </div>
+                            <button type="submit" class="btn btn-primary w-100">Sign Up</button>
+                            <p class="text-center mt-3">Already have an account? <a href="#" id="show-sign-in">Sign In</a></p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
