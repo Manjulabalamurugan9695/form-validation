@@ -1,0 +1,9 @@
+body {
+    background-color: #f8f9fa;
+    background-image: linear-gradient(rgba(0,0,50,0.8),rgba(0,0,50,0.8)),url(img/img\ 2.png);
+    background: size 100px;;
+    background: position 100px;
+    width: 100%;
+}
+
+
