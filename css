@@ -7,3 +7,26 @@ body {
 }
 
 
+form {
+    background-color: #cdc2c2;
+    padding: 80px;
+    border-radius: 8px;
+    box-shadow: 0 10px 5px rgba(0, 0, 0, 0.1);
+    margin-left: 3em;
+    margin-right: 3em;
+    width: 90%;
+    max-width: 500px;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+
+}
+
+button{
+    border-radius: 800px;
+}
+
+.text-center{
+    text-align: center;
+    justify-content: center;
+}
